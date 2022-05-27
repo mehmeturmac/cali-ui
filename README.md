@@ -25,6 +25,8 @@ class Example extends Component {
 }
 ```
 
+![Preview](img/Preview.png)
+
 ## License
 
 MIT © [mehmeturmac](https://github.com/mehmeturmac)

@@ -6,11 +6,31 @@ import 'cali-ui/dist/index.css'
 const App = () => {
   return (
     <>
-      <Button text='Click' type='primary' onClick={() => alert('Test')} />
-      <Button text='Click' type='default' onClick={() => alert('Test')} />
-      <Button text='Click' type='dashed' onClick={() => alert('Test')} />
-      <Button text='Click' type='text' onClick={() => alert('Test')} />
-      <Button text='Click' type='link' onClick={() => alert('Test')} />
+      <Button
+        text='Primary Button'
+        type='primary'
+        onClick={() => alert('Primary Button')}
+      />
+      <Button
+        text='Default Button'
+        type='default'
+        onClick={() => alert('Default Button')}
+      />
+      <Button
+        text='Dashed Button'
+        type='dashed'
+        onClick={() => alert('Dashed Button')}
+      />
+      <Button
+        text='Text Button'
+        type='text'
+        onClick={() => alert('Text Button')}
+      />
+      <Button
+        text='Link Button'
+        type='link'
+        onClick={() => alert('Link Button')}
+      />
     </>
   )
 }
