@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Button } from 'caliui'
-import 'caliui/dist/index.css'
+import { Button } from 'cali-ui'
+import 'cali-ui/dist/index.css'
 
 const App = () => {
   return (

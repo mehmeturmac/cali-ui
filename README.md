@@ -1,4 +1,4 @@
-# caliui
+# cali-ui
 
 > Made with create-react-library
 
@@ -15,8 +15,8 @@ npm install --save cali-ui
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'caliui'
-import 'caliui/dist/index.css'
+import MyComponent from 'cali-ui'
+import 'cali-ui/dist/index.css'
 
 class Example extends Component {
   render() {
