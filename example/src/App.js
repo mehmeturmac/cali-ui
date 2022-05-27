@@ -1,10 +1,18 @@
 import React from 'react'
 
-import { ExampleComponent } from 'caliui'
+import { Button } from 'caliui'
 import 'caliui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <Button text='Click' type='primary' onClick={() => alert('Test')} />
+      <Button text='Click' type='default' onClick={() => alert('Test')} />
+      <Button text='Click' type='dashed' onClick={() => alert('Test')} />
+      <Button text='Click' type='text' onClick={() => alert('Test')} />
+      <Button text='Click' type='link' onClick={() => alert('Test')} />
+    </>
+  )
 }
 
 export default App
